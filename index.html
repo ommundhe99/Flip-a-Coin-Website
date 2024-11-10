@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip a Coin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Flip a Coin</h1>
+            <button id="theme-toggle">🌙</button>
+        </header>
+        <main>
+            <div id="coin-container">
+                <!-- Default image set to heads -->
+                <img id="coin" src="images/heads.png" alt="Coin">
+            </div>
+            <button id="flip-button">Flip Coin</button>
+            <div id="statistics">
+                <p id="result">Result: -</p>
+                <p id="stats">Heads: 0 | Tails: 0</p>
+            </div>
+        </main>
+        <footer>
+            <p>© 2024 Flip a Coin Website</p>
+        </footer>
+
+        <!-- Add an audio element for the flip sound effect -->
+        <audio id="flip-sound" src="sounds/flip-coin.mp3"></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
